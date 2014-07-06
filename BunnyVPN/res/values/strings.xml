@@ -2,7 +2,19 @@
 <resources>
 
     <string name="app_name">BunnyVPN</string>
-    <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
-
+    <!-- Menu -->
+    <string name="action_edit">Edit</string>
+    <string name="action_save">Save</string>
+    <string name="action_about">About</string>
+    <string name="action_connect">Connect</string>
+	<string name="copyright">Bunny VPN is a Open Souce Project!</string>
+	
+	<!-- List -->
+	<string name="vpn_name">Name</string>
+	<string name="vpn_type">Type</string>
+	<string name="vpn_server">Server</string>
+	<string name="vpn_username">Username</string>
+	<string name="vpn_password">Password</string>
+	<string name="vpn_mppe">MPPE</string>
+	<string name="vpn_auto_mode">Auto Connect Mode</string>
 </resources>
