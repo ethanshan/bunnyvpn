@@ -1,0 +1,88 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea/
+* .idea/.name
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/encodings.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/scopes/
+* .idea/scopes/scope_settings.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* BunnyVPN.iml
+* ic_launcher-web.png
+* out/
+* out/production/
+* out/production/BunnyVPN/
+* out/production/BunnyVPN/BunnyVPN.afp.apk
+* out/production/BunnyVPN/BunnyVPN.apk
+* out/production/BunnyVPN/BunnyVPN.apk.res
+* out/production/BunnyVPN/classes.dex
+* out/production/BunnyVPN/net/
+* out/production/BunnyVPN/net/codingpark/
+* out/production/BunnyVPN/net/codingpark/bunnyvpn/
+* out/production/BunnyVPN/net/codingpark/bunnyvpn/AutoModeAdapter.class
+* out/production/BunnyVPN/net/codingpark/bunnyvpn/BuildConfig.class
+* out/production/BunnyVPN/net/codingpark/bunnyvpn/BunnyActivity.class
+* out/production/BunnyVPN/net/codingpark/bunnyvpn/R$attr.class
+* out/production/BunnyVPN/net/codingpark/bunnyvpn/R$dimen.class
+* out/production/BunnyVPN/net/codingpark/bunnyvpn/R$drawable.class
+* out/production/BunnyVPN/net/codingpark/bunnyvpn/R$id.class
+* out/production/BunnyVPN/net/codingpark/bunnyvpn/R$layout.class
+* out/production/BunnyVPN/net/codingpark/bunnyvpn/R$menu.class
+* out/production/BunnyVPN/net/codingpark/bunnyvpn/R$string.class
+* out/production/BunnyVPN/net/codingpark/bunnyvpn/R$style.class
+* out/production/BunnyVPN/net/codingpark/bunnyvpn/R.class
+* out/res-cache/
+* out/res-cache/BunnyVPN/
+* out/res-cache/BunnyVPN/drawable-hdpi/
+* out/res-cache/BunnyVPN/drawable-hdpi/bunny.png
+* out/res-cache/BunnyVPN/drawable-hdpi/ic_launcher.png
+* out/res-cache/BunnyVPN/drawable-ldpi/
+* out/res-cache/BunnyVPN/drawable-ldpi/bunny.png
+* out/res-cache/BunnyVPN/drawable-mdpi/
+* out/res-cache/BunnyVPN/drawable-mdpi/bunny.png
+* out/res-cache/BunnyVPN/drawable-mdpi/ic_launcher.png
+* out/res-cache/BunnyVPN/drawable-xhdpi/
+* out/res-cache/BunnyVPN/drawable-xhdpi/bunny.png
+* out/res-cache/BunnyVPN/drawable-xhdpi/ic_launcher.png
+* out/res-cache/BunnyVPN/drawable-xxhdpi/
+* out/res-cache/BunnyVPN/drawable-xxhdpi/bunny.png
+* out/res-cache/BunnyVPN/drawable-xxhdpi/ic_launcher.png
+* proguard-project.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* lint.xml => app/lint.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
