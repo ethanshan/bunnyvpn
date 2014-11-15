@@ -18,13 +18,24 @@ public class BunnyActivity extends Activity {
 	/**
 	 * UI Elements
 	 */
-	private EditText vpn_name		= null;
-	private EditText vpn_type		= null;
-	private EditText vpn_server		= null;
-	private CheckBox vpn_mppe		= null;
-	private EditText vpn_username	= null;
-	private EditText vpn_password	= null;
-	private Spinner auto_spinner 	= null;
+    private EditText vpn_name_et        = null;
+    private EditText vpn_type_et        = null;
+    private EditText vpn_server_et      = null;
+    private CheckBox vpn_mppe_cb        = null;
+    private EditText vpn_username_et    = null;
+    private EditText vpn_password_et    = null;
+    private Spinner auto_spinner_s      = null;
+
+    /**
+     * PPTP Vpn keys
+     */
+    private static final String VPN_NAME_KEY        = "vpn_name";
+    private static final String VPN_TYPE_KEY        = "vpn_type";
+    private static final String VPN_SERVER_KEY      = "vpn_server";
+    private static final String VPN_MPPE_ENABLE_KEY = "vpn_mppe_enable";
+    private static final String VPN_USERNAME_KEY    = "vpn_username";
+    private static final String VPN_PASSWORD_KEY    = "vpn_password";
+    private static final String VPN_AUTO_MODE_KEY   = "vpn_auto_mode";
 	
 	/**
 	 * 3G		-- 0
@@ -42,16 +53,16 @@ public class BunnyActivity extends Activity {
 	}
 	
 	private void initUI() {
-		vpn_name = (EditText)findViewById(R.id.vpn_name);
-		vpn_type = (EditText)findViewById(R.id.vpn_type);
-		vpn_server = (EditText)findViewById(R.id.vpn_server);
-		vpn_mppe = (CheckBox)findViewById(R.id.vpn_mppe);
-		vpn_username = (EditText)findViewById(R.id.vpn_username);
-		vpn_username = (EditText)findViewById(R.id.vpn_password);
-		auto_spinner = (Spinner)findViewById(R.id.auto_mode_spinner);
+		vpn_name_et = (EditText)findViewById(R.id.vpn_name);
+		vpn_type_et = (EditText)findViewById(R.id.vpn_type);
+		vpn_server_et = (EditText)findViewById(R.id.vpn_server);
+		vpn_mppe_cb = (CheckBox)findViewById(R.id.vpn_mppe);
+		vpn_username_et = (EditText)findViewById(R.id.vpn_username);
+		vpn_username_et = (EditText)findViewById(R.id.vpn_password);
+		auto_spinner_s = (Spinner)findViewById(R.id.auto_mode_spinner);
 		AutoModeAdapter spinnerAdapter = new AutoModeAdapter(this, 
 				R.layout.auto_mode_spinner_item, AUTO_CONNECT_MODES);
-		auto_spinner.setAdapter(spinnerAdapter);
+		auto_spinner_s.setAdapter(spinnerAdapter);
 	}
 
 	@Override
